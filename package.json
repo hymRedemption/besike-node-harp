@@ -1,0 +1,20 @@
+{
+  "name": "mini-harp",
+  "version": "1.0.0",
+  "description": "A mini-harp",
+  "main": "index.js",
+  "bin": {
+    "mini-harp": "./bin/mini-harp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hym",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.3.3"
+  },
+  "devDependencies": {
+    "connect": "^3.3.3"
+  }
+}
