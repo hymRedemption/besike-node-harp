@@ -10,7 +10,7 @@ if(args["port"]){
 	port = args["port"];
 }
 
-var root = process.cwd();
+var root = process.cwd() + "/verify/assets";
 if(args._.length > 2){
 	root = args._[2];
 }
