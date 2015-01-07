@@ -7,12 +7,12 @@ var args = parseArgs(process.argv);
 
 var port = 4000;
 if(args["port"]){
-	port = args["port"];
+    port = args["port"];
 }
 
 var root = process.cwd() + "/verify/assets";
 if(args._.length > 2){
-	root = process.cwd() + args._[2];
+    root = process.cwd() + args._[2];
 }
 
 var app = createMiniHarp(root);

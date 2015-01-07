@@ -1,25 +1,25 @@
 {
-  "name": "mini-harp",
-  "version": "1.0.0",
-  "description": "A mini-harp",
-  "main": "index.js",
-  "bin": {
-    "mini-harp": "./bin/mini-harp.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "hym",
-  "license": "MIT",
-  "dependencies": {
-    "connect": "^3.3.3"
-  },
-  "devDependencies": {
-    "connect": "^3.3.3",
-    "jade": "^1.8.2",
-    "less": "^2.2.0",
-    "minimist": "^1.1.0",
-    "serve-static": "^1.7.2",
-    "supertest": "^0.15.0"
-  }
+    "name": "mini-harp",
+    "version": "1.0.0",
+    "description": "A mini-harp",
+    "main": "index.js",
+    "bin": {
+        "mini-harp": "./bin/mini-harp.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "hym",
+    "license": "MIT",
+    "dependencies": {
+        "connect": "^3.3.3"
+    },
+    "devDependencies": {
+        "connect": "^3.3.3",
+        "jade": "^1.8.2",
+        "less": "^2.2.0",
+        "minimist": "^1.1.0",
+        "serve-static": "^1.7.2",
+        "supertest": "^0.15.0"
+    }
 }
