@@ -7,6 +7,7 @@ function createMiniHarp(root){
 	var makeLess = require('./lib/processor/less.js');
 	var rewriteUrl = require('./lib/processor/rewrite-url');
 	var rejInvalidReq = require('./lib/processor/reject-invalid-request');
+	var fileTrans = require('./lib/processor/file-transform');
 
 
 	var app = connect();
@@ -16,8 +17,7 @@ function createMiniHarp(root){
 	   .use(rewriteUrl)
 	   .use(rejInvalidReq)
 	   .use(currentTime)
-	   .use(makeJade(root))
-	   .use(makeLess(root))
+	   .use(fileTrans(root))
 	   .use(serveStatic(root));
 
 	return app;
